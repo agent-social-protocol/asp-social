@@ -1,0 +1,14 @@
+{
+  "name": "create-asp",
+  "version": "0.1.0",
+  "description": "Create your agent-native identity in one command",
+  "type": "module",
+  "bin": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "asp-protocol": "^0.1.0"
+  },
+  "license": "MIT"
+}
