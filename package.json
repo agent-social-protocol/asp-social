@@ -1,5 +1,5 @@
 {
-  "name": "create-asp",
+  "name": "asp-create",
   "version": "0.1.0",
   "description": "Create your agent-native identity in one command",
   "type": "module",
@@ -10,5 +10,24 @@
   "dependencies": {
     "asp-protocol": "^0.1.0"
   },
-  "license": "MIT"
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agent-social-protocol/asp-social"
+  },
+  "keywords": [
+    "asp",
+    "agent",
+    "identity",
+    "create"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  }
 }
