@@ -1,0 +1,14 @@
+direct_prompt: |
+  Review this PR for bugs and security vulnerabilities only.
+  Do NOT comment on:
+  - Code style, formatting, or naming conventions
+  - Missing documentation or comments
+  - Suggestions for "improvements" or refactoring
+  - Minor nitpicks
+
+  Only report issues where:
+  - There is a clear bug or logic error
+  - There is a security vulnerability (XSS, injection, auth bypass, etc.)
+  - There is a race condition or data loss risk
+
+  Be concise. If there are no bugs or security issues, just approve the PR with a short message.
